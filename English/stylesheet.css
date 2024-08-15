@@ -1,9 +1,24 @@
-* {
-	font-family: 'Manifa';
-	src:
-		url
-('https://SalemAteeq.github.io/English/Manifa.ttf')
-format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	}
+@font-face {
+    font-family: 'Manifa';
+    src: url('https://SalemAteeq.github.io/English/Manifa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the custom font to the entire body */
+body {
+    font-family: 'Manifa', sans-serif;
+}
+
+/* Optionally, you can apply the custom font to specific elements */
+h1 {
+    font-family: 'Manifa', sans-serif;
+}
+
+h2 {
+    font-family: 'Manifa', sans-serif;
+}
+
+p {
+    font-family: 'Manifa', sans-serif;
+}
